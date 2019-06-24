@@ -45,7 +45,7 @@ DefaultContentLanguage = "en"
   [Languages.en.homepage]
    ## -- HOMEPAGE -- ##
   topBannerText = "Who are we?"
-  leadText = "We're a group of people who want to help you answer the question: how can I do good better?"
+  leadText = "We're a group of people striving to answer the question: How can I do good better?"
   firstSectionHeader = "Doing good better"
   secondSectionHeader = "Building a community"
   thirdSectionHeader = "Finding better ways to help"
@@ -53,7 +53,7 @@ DefaultContentLanguage = "en"
 
   [Languages.en.contactform]
   ## -- CONTACT FORM -- ##
-  leadText = "Say g'day!"
+  leadText = "Say g'day! We're happy to answer any questions you may have."
   senderName = "Your name (required)"
   senderEmail = "Your email (required)"
   emailSubject = "Subject"
