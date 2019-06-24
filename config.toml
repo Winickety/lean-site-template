@@ -45,7 +45,7 @@ DefaultContentLanguage = "en"
   [Languages.en.homepage]
    ## -- HOMEPAGE -- ##
   topBannerText = "Who are we?"
-  leadText = "We're a group of people striving to answer the question: How can I do good better?"
+  leadText = "We're a community of people striving to answer the question: How can I do good better?"
   firstSectionHeader = "Doing good better"
   secondSectionHeader = "Building a community"
   thirdSectionHeader = "Finding better ways to help"
