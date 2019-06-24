@@ -1,37 +1,27 @@
-# baseURL should be
-# "https://YOUR-GITHUB-USERNAME.github.io/lean-site-template/" during development,
-# and "your-ea-domain.org/" after your domain has been set up.
-baseURL = "https://rtcharity.github.io/lean-site-template/"
+baseURL = "https://winickety.github.io/lean-site-template/"
 theme = "local-ea-template"
 canonifyURLs = true
 
-# If you are using multiple languages and want a different default,
-# you can change this language code. In this particular case,
-# baseURL will be the English site, and baseURL/<language code> will be the
-# other languages.
 DefaultContentLanguage = "en"
 
-# These params are used by the local EA Hugo template
-# used to generate the site. You can find the template
-# at https://github.com/rtcharity/local-ea-template.
   [params]
 
   [Languages]
   [Languages.en]
-  title = "Local EA Website"
+  title = "Effective Altruism Sydney"
   weight = 1
   languageCode = "en"
 
   [Languages.en.general]
   ## -- GENERAL SITE PARAMETERS -- ##
-  fullTitle = "Effective Altruism Site Title"
+  fullTitle = "Effective Altruism Sydney"
   strapline = "Helping you do good better"
 
   [Languages.en.groupinfo]
   ## -- EA GROUP INFO -- ##
-  legalOrgName = "Effective Altruism <City Here>"
-  orgLocations = "this location and that location"
-  contactEmail = "yourEAGroupEmail@here.com"
+  legalOrgName = "Effective Altruism Sydney"
+  orgLocations = "355 Kent Street NSW 2000"
+  contactEmail = "info@easydney.org"
 
   [Languages.en.navbar]
   ## -- NAVIGATION BAR HEADERS -- ##
@@ -63,7 +53,7 @@ DefaultContentLanguage = "en"
 
   [Languages.en.contactform]
   ## -- CONTACT FORM -- ##
-  leadText = "Say hi!"
+  leadText = "Say g'day!"
   senderName = "Your name (required)"
   senderEmail = "Your email (required)"
   emailSubject = "Subject"
@@ -74,17 +64,18 @@ DefaultContentLanguage = "en"
   # These are the buttons right under the header that appears on the main page.
   # You can use them to link to a mailing list or Facebook page.
   # Make sure the links start with http:// or https://
-  firstButtonText = "First Button Text"
-  firstButtonLink = ""
-  secondButtonText = "Second Button Text"
-  secondButtonLink = ""
+  firstButtonText = "Join our Facebook group"
+  firstButtonLink = "https://www.facebook.com/groups/effectivealtruismsydney/"
+  secondButtonText = "Sign up to our mailing list"
+  secondButtonLink = "http://easydney.org/join-us/mailing-list/"
   # Remove the # before the text to add the optional Meetup button
-  # meetupButtonText = "Find us on Meetup"
+  meetupButtonText = "Find us on Meetup"
+  meetupButtonLink = "https://www.meetup.com/en-AU/Effective-Altruism-Sydney/"
 
   [Languages.en.urls]
   ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
   # If your group does not have URLs for these, just add # before the line
   # to remove the link from the site
-  facebookUrl = ""
+  facebookUrl = "https://www.facebook.com/groups/effectivealtruismsydney/"
   twitterUrl = ""
-  meetupUrl = ""
+  meetupUrl = "https://www.meetup.com/en-AU/Effective-Altruism-Sydney/"
